@@ -1,0 +1,88 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+.container{
+    text-align: center;
+    margin-top: 5px;
+   color:brown
+}
+.header{
+    text-align:center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/009/863/original/cute-student-standing-front-of-board-cartoon-icon-illustration-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.last{
+    text-align: center;
+    margin-top: 17px;
+    
+    
+}
+.calendar{
+    width:100px;
+    height:150px;
+    box-shadow: 2px 2px 2px black, -2px -2px black;
+    box-sizing: border-box;
+    margin-left: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.month{
+    height:50px;
+    background: coral;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-size:30px;
+}
+.day{
+text-align: center;
+line-height: 30px;
+}
+.date{
+    text-align: center;
+    line-height: 70px;
+    font-size: 45px;
+}
+.year{
+    text-align: center;
+    margin-top: 10px;
+}
+body table{
+    width: 80%;
+}
+list{
+    border-collapse: collapse;
+}
+table.list{
+    width: 100%;
+}
+td th{
+    border: 1px solid greenyellow;
+    text-align: left;
+    padding: 8px;
+}
+.error{
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    color: brown;
+
+}
+.but{
+    border-radius: 9px;
+    width:100px;
+    height:50px;
+    font-size: 25px;
+    margin: 22px 25px;
+}
